@@ -26,7 +26,7 @@ const orders = {
       ],
       "name": "Бессмертный space краторный бургер",
       "_id": uuidv4(),
-      "status": "ready",
+      "status": "done",
       "number": 2,
       "createdAt": "2021-06-23T14:47:22.587Z",
       "updatedAt": "2021-06-23T14:47:22.603Z"
@@ -44,7 +44,7 @@ const orders = {
       ],
       "name": "Фалленианский астероидный краторный минеральный бургер",
       "_id": uuidv4(),
-      "status": "ready",
+      "status": "in progress",
       "number": 3,
       "createdAt": "2021-06-24T14:43:22.587Z",
       "updatedAt": "2021-06-24T14:43:22.603Z"
@@ -66,7 +66,7 @@ const ordersUpdated = {
       ],
       "name": "Simply Burger",
       "_id": uuidv4(),
-      "status": "ready",
+      "status": "in progress",
       "number": 3,
       "createdAt": "2021-06-24T14:43:22.587Z",
       "updatedAt": "2021-06-24T14:43:22.603Z"
