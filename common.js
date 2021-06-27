@@ -1,8 +1,8 @@
 const { v4: uuidv4 } = require('uuid');
 
 const orders = {
-  "success": true,
-  "orders": [
+  success: true,
+  orders: [
     {
       "ingredients": [
         "60d3b41abdacab0026a733c6",
@@ -55,53 +55,8 @@ const orders = {
 }
 const ordersUpdated = {
   "success": true,
-  "orders": [
-    {
-      "ingredients": [
-        "60d3b41abdacab0026a733c6",
-        "60d3b41abdacab0026a733d2",
-        "60d3b41abdacab0026a733c9",
-        "60d3b41abdacab0026a733ca"
-      ],
-      "name": "Space антарианский флюоресцентный бургер",
-      "_id": uuidv4(),
-      "status": "done",
-      "number": 1,
-      "createdAt": "2021-06-01T14:43:22.587Z",
-      "updatedAt": "2021-06-01T14:43:22.603Z"
-    },
-    {
-      "ingredients": [
-        "60d3b41abdacab0026a733c6",
-        "60d3463f7034a000269f45e9",
-        "60d3463f7034a000269f45e8",
-        "60d3b41abdacab0026a733cb"
-      ],
-      "name": "Бессмертный space краторный бургер",
-      "_id": uuidv4(),
-      "status": "ready",
-      "number": 2,
-      "createdAt": "2021-06-23T14:47:22.587Z",
-      "updatedAt": "2021-06-23T14:47:22.603Z"
-    },
-    {
-      "ingredients": [
-        "60d3b41abdacab0026a733c7",
-        "60d3b41abdacab0026a733d2",
-        "60d3463f7034a000269f45e8",
-        "60d3b41abdacab0026a733d2",
-        "60d3463f7034a000269f45e8",
-        "60d3b41abdacab0026a733d2",
-        "60d3463f7034a000269f45e8",
-        "60d3b41abdacab0026a733cf"
-      ],
-      "name": "Фалленианский астероидный краторный минеральный бургер",
-      "_id": uuidv4(),
-      "status": "ready",
-      "number": 3,
-      "createdAt": "2021-06-24T14:43:22.587Z",
-      "updatedAt": "2021-06-24T14:43:22.603Z"
-    },
+  orders: [
+    ...orders.orders,
     {
       "ingredients": [
         "60d3b41abdacab0026a733c7",
