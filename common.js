@@ -6,7 +6,7 @@ const orders = {
     {
       "ingredients": [
         "60d3b41abdacab0026a733c6",
-        "60d3b41abdacab0026a733d2",
+        "60d3b41abdacab0026a733c8",
         "60d3b41abdacab0026a733c9",
         "60d3b41abdacab0026a733ca"
       ],
@@ -20,8 +20,8 @@ const orders = {
     {
       "ingredients": [
         "60d3b41abdacab0026a733c6",
-        "60d3463f7034a000269f45e9",
-        "60d3463f7034a000269f45e8",
+        "60d3b41abdacab0026a733c8",
+        "60d3b41abdacab0026a733c9",
         "60d3b41abdacab0026a733cb"
       ],
       "name": "Бессмертный space краторный бургер",
@@ -34,12 +34,12 @@ const orders = {
     {
       "ingredients": [
         "60d3b41abdacab0026a733c7",
+        "60d3b41abdacab0026a733c8",
+        "60d3b41abdacab0026a733cf",
         "60d3b41abdacab0026a733d2",
-        "60d3463f7034a000269f45e8",
+        "60d3b41abdacab0026a733cf",
         "60d3b41abdacab0026a733d2",
-        "60d3463f7034a000269f45e8",
         "60d3b41abdacab0026a733d2",
-        "60d3463f7034a000269f45e8",
         "60d3b41abdacab0026a733cf"
       ],
       "name": "Фалленианский астероидный краторный минеральный бургер",
@@ -54,7 +54,7 @@ const orders = {
   "totalToday": 2
 }
 const ordersUpdated = {
-  "success": true,
+  success: true,
   orders: [
     ...orders.orders,
     {
