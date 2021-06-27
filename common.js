@@ -67,7 +67,7 @@ const ordersUpdated = {
       "name": "Simply Burger",
       "_id": uuidv4(),
       "status": "in progress",
-      "number": 3,
+      "number": 4656,
       "createdAt": "2021-06-24T14:43:22.587Z",
       "updatedAt": "2021-06-24T14:43:22.603Z"
     }
