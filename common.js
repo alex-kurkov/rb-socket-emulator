@@ -50,7 +50,7 @@ const orders = {
       "updatedAt": "2021-06-24T14:43:22.603Z"
     }
   ],
-  "total": 3,
+  "total": 14538,
   "totalToday": 2
 }
 const ordersUpdated = {
@@ -70,10 +70,30 @@ const ordersUpdated = {
       "number": 4656,
       "createdAt": "2021-06-24T14:43:22.587Z",
       "updatedAt": "2021-06-24T14:43:22.603Z"
-    }
+    },
+    {
+      "ingredients": [
+        "60d3b41abdacab0026a733c7",
+        "60d3b41abdacab0026a733cf",
+        "60d3b41abdacab0026a733d1",
+        "60d3b41abdacab0026a733c9",
+        "60d3b41abdacab0026a733cb",
+        "60d3b41abdacab0026a733c8",
+        "60d3b41abdacab0026a733c9",
+        "60d3b41abdacab0026a733d1",
+        "60d3b41abdacab0026a733c9",
+      ],
+      "name": "Heav'burger",
+      "_id": uuidv4(),
+      "status": "cancelled",
+      "number": 12987,
+      "createdAt": "2021-06-27T14:43:22.587Z",
+      "updatedAt": "2021-06-27T14:43:22.603Z"
+    },
+
   ],
-  "total": 4,
-  "totalToday": 3
+  "total": 14540,
+  "totalToday": 4
 }
 
 module.exports = { orders, ordersUpdated }
