@@ -60,9 +60,9 @@ const ordersUpdated = {
     {
       "ingredients": [
         "60d3b41abdacab0026a733c7",
-        "60d3463f7034a000269f45e9",
+        "60d3b41abdacab0026a733cb",
         "60d3b41abdacab0026a733c8",
-        "60d3b41abdacab0026a733cb"
+        "60d3b41abdacab0026a733c9"
       ],
       "name": "Simply Burger",
       "_id": uuidv4(),
