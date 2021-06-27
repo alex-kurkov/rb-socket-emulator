@@ -1,0 +1,3 @@
+REACT-BURGER SOCKET API EMULATOR
+
+to install clone 
